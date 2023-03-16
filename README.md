@@ -14,6 +14,9 @@ Node version
 16.13.1
 ```
 
+## GIF of implementation
+> https://github.com/Emad4067/squiblertask/blob/main/SquiblerFrontendTaskImplementation.gif
+
 ## Video of implementation:
 > https://www.loom.com/share/c5896245bf3d4717a1f8c3713af8e258
 
