@@ -33,7 +33,6 @@ export class IbookContentComponent implements AfterViewInit {
   }
 
   openMeaningDrwaer(selection: any) {
-    console.log('this.content', this.content);
     this.drawerDialogRef = this.dialog.open(IbookMeaningDrawerComponent, {
       data: { selection },
       panelClass: 'right-aligned-modal',
