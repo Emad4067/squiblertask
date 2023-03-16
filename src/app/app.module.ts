@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { QuillModule } from 'ngx-quill';
 
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -11,7 +10,6 @@ import { IBookModule } from './ibook/ibook.module';
 import { WordsAPIService } from './services/wordsAPI.service';
 import { AppHttpInterceptor } from './interceptor/http-interceptor.service';
 import { NotificationService } from './services/notification.service';
-import { HighlightDirective } from './shared/directives/highlight.directive';
 
 @NgModule({
   declarations: [AppComponent],
@@ -29,7 +27,7 @@ import { HighlightDirective } from './shared/directives/highlight.directive';
       multi: true,
     },
     WordsAPIService,
-    NotificationService
+    NotificationService,
   ],
   bootstrap: [AppComponent],
 })

@@ -8,9 +8,8 @@ describe('IbookMeaningDrawerComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ IbookMeaningDrawerComponent ]
-    })
-    .compileComponents();
+      declarations: [IbookMeaningDrawerComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {

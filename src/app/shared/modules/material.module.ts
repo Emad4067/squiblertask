@@ -7,11 +7,9 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
 import { MatRippleModule } from '@angular/material/core';
-import { MatFormFieldModule} from '@angular/material/form-field';
+import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { HighlightDirective } from '../directives/highlight.directive';
-
-
 
 const modules = [
   MatIconModule,
@@ -23,7 +21,7 @@ const modules = [
   MatFormFieldModule,
   MatIconModule,
   MatInputModule,
-  MatRippleModule
+  MatRippleModule,
 ];
 
 @NgModule({

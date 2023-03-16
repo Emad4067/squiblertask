@@ -8,9 +8,8 @@ describe('IbookShareFormComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ IbookShareFormComponent ]
-    })
-    .compileComponents();
+      declarations: [IbookShareFormComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {

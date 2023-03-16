@@ -4,9 +4,9 @@
 
 export const environment = {
   production: false,
-  apiURL: "https://wordsapiv1.p.rapidapi.com/words/",
-  apiKey: "5201de2744msh9714e9e944244bbp1f1620jsn32fad3918beb",
-  apiHost: "wordsapiv1.p.rapidapi.com"
+  apiURL: 'https://wordsapiv1.p.rapidapi.com/words/',
+  apiKey: '5201de2744msh9714e9e944244bbp1f1620jsn32fad3918beb',
+  apiHost: 'wordsapiv1.p.rapidapi.com',
 };
 
 /*

@@ -34,10 +34,6 @@ export class AppHttpInterceptor implements HttpInterceptor {
     headers = req.headers.set('X-RapidAPI-Key', environment.apiKey);
     headers = headers.append('X-RapidAPI-Host', environment.apiHost);
 
-    // if (!Object.prototype.toString.call(req.body).indexOf('FormData')) {
-    //   headers = headers.append('Content-Type', 'application/json');
-    // }
-
     const newRequest = req.clone({ headers });
     // eslint-disable-next-line consistent-return
     return next.handle(newRequest).pipe(tap(() => {}));

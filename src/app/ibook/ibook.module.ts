@@ -14,7 +14,7 @@ import { IbookShareFormComponent } from './ibook-share-form/ibook-share-form.com
   declarations: [
     IbookContentComponent,
     IbookMeaningDrawerComponent,
-    IbookShareFormComponent
+    IbookShareFormComponent,
   ],
   imports: [
     CommonModule,
@@ -24,7 +24,7 @@ import { IbookShareFormComponent } from './ibook-share-form/ibook-share-form.com
     ReactiveFormsModule,
     MatMenuModule,
     MatButtonModule,
-    QuillModule.forRoot()
+    QuillModule.forRoot(),
   ],
 })
 export class IBookModule {}

@@ -1,6 +1,4 @@
-import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
-import { QuillEditorComponent } from 'ngx-quill';
-import { Quill } from 'quill';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
