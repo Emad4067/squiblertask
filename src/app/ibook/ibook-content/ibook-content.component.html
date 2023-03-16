@@ -1,0 +1,25 @@
+<!-- <app-ibook-meaning-drawer></app-ibook-meaning-drawer> -->
+<section>
+  <mat-card>
+    <mat-card-title>iBook: Next Gen Book Writing</mat-card-title>
+    <mat-card-content>
+      <quill-editor
+        #editor
+        class="content-editor"
+        [(ngModel)]="content"
+        [placeholder]="''"
+      >
+      </quill-editor>
+    </mat-card-content>
+    <mat-card-actions>
+      <button
+        mat-raised-button
+        color="primary"
+        [disabled]="checkEditorIsEmpty()"
+        (click)="shareWithAFriend()"
+      >
+        Share it with a friend
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</section>

@@ -1,0 +1,22 @@
+.content {
+  &-section {
+    line-height: 1;
+    margin-bottom: 1em;
+
+    &__heading {
+      margin-bottom: 0px;
+      font-weight: bolder;
+    }
+
+    &__subheading {
+      color: gray;
+      span {
+        font-weight: bold;
+      }
+    }
+
+    p {
+        text-align: justify;
+    }
+  }
+}

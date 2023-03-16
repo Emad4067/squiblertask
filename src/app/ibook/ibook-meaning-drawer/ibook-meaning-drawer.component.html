@@ -1,0 +1,21 @@
+<h2 mat-dialog-title>{{ data?.selection }}</h2>
+<mat-dialog-content class="mat-typography">
+  <div
+    class="content-section"
+    *ngFor="let definition of wordDefinition; let i = index"
+  >
+    <h3 class="content-section__heading">{{ definition?.partOfSpeech }}</h3>
+    <h4 class="content-section__subheading">
+      {{ definition?.partOfSpeech }}
+      <span appHighlight> {{ data?.selection }} </span>
+    </h4>
+    <p>{{ i }}. {{ definition?.definition }}</p>
+  </div>
+
+  <div *ngIf="wordDefinition.length == 0">
+    <h3>Still looking for it...</h3>
+  </div>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Close</button>
+</mat-dialog-actions>

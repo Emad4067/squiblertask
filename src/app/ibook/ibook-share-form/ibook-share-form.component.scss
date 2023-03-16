@@ -1,0 +1,26 @@
+mat-form-field {
+  width: 400px;
+}
+mat-card-title {
+  text-align: center;
+}
+
+mat-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+mat-card-actions {
+    text-align: center;
+}
+
+mat-card {
+    width: fit-content;
+}
+
+section {
+    display: flex;
+    padding: 5em;
+    justify-content: space-around;
+}
