@@ -1,27 +1,69 @@
-# SquiblerFrontendTask
+# Squibler Task
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
 
-## Development server
+Angular cli version
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```bash
+12.2.12
+```
 
-## Code scaffolding
+Node version
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+16.13.1
+```
 
-## Build
+## Video of implementation:
+> https://www.loom.com/share/c5896245bf3d4717a1f8c3713af8e258
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Run Locally
 
-## Running unit tests
+Clone the project
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+  git clone https://github.com/Emad4067/squiblertask.git
+```
 
-## Running end-to-end tests
+Go to the project directory
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+  cd squiblertask
+```
 
-## Further help
+Install dependencies
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  ng s
+```
+
+## Details regarding implementation
+
+```bash
+  > focused on structure 
+    > ibook (module)
+    > interceptor
+    > interfaces
+    > services
+    > shared
+        > components
+        > directives
+        > modules (created one module file for including all relevant material modules)
+    > utilities (it includes a config for fetching relevant API URLs)
+    > environment (added apiURL, apiKey, apiHost here, since it was required by rapid API endpoint)
+  > used the following endpoint for retrieving the definition of word: /definitions
+  > Tried to use BEM style conventions
+```
+
+## What could have been improved if I had more time?
+```bash
+  > Implemented unit tests.
+  > utilized NgRx.
+  > refactored the code a bit.
+```
