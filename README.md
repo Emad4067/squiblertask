@@ -58,6 +58,8 @@ Start the server
     > utilities (it includes a config for fetching relevant API URLs)
     > environment (added apiURL, apiKey, apiHost here, since it was required by rapid API endpoint)
   > used the following endpoint for retrieving the definition of word: /definitions
+  > added form validations for share screen (The submit button would be disabled until the user fills in the form)
+  > the button under the quill-editor would be disabled until two words are there in the editor
   > Tried to use BEM style conventions
 ```
 
